@@ -5,7 +5,7 @@ import { Notify } from 'notiflix';
 const DEBOUNCE_DELAY = 300;
 
 
-const refs = {
+constant refs = {
   inputEl: document.querySelector('#search-box'),
   countryList: document.querySelector('.country-list'),
   countryInfo: document.querySelector('.country-info'),
