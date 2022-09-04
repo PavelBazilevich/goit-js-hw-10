@@ -3,7 +3,7 @@ import { fetchCountries } from './fetchCountries';
 import debounce from 'lodash.debounce';
 import { Notify } from 'notiflix';
 const DEBOUNCE_DELAY = 300;
-// githab please bild my project
+
 const refs = {
   inputEl: document.querySelector('#search-box'),
   countryList: document.querySelector('.country-list'),
